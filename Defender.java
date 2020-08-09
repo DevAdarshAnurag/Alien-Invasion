@@ -26,4 +26,16 @@ public class Defender extends Sprite {
 		}
 	}
 	
+	public void move(int mouseX, int mouseY)
+	{
+		if(mouseX < 200 && mouseX > 0)
+		{	
+			x = mouseX;
+		}
+		if(mouseY < 200 && mouseY > 50)
+		{	
+			y = mouseY;
+		}
+	}
+	
 }
