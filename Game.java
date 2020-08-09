@@ -105,7 +105,7 @@ class Game extends JFrame implements MouseListener, MouseMotionListener, ActionL
 	
 	public void mouseMoved(MouseEvent event) 
 	{ 
-		defender.move(event.getX()); 
+		defender.move(event.getX(), event.getY()); 
 	}
 	//remaining methods of MouseMotionListener
 	public void mouseDragged(MouseEvent e)
